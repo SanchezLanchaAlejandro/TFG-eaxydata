@@ -44,7 +44,7 @@ src/
 1. Clona el repositorio:
 ```bash
 git clone [URL_DEL_REPOSITORIO]
-cd dms-cst
+cd eaxydata
 ```
 
 2. Instala las dependencias:
@@ -52,32 +52,12 @@ cd dms-cst
 npm install
 ```
 
-3. Configura las variables de entorno:
-```bash
-cp .env.local.example .env.local
-```
-Edita `.env.local` con tus credenciales de Supabase y Resend.
-
-4. Inicia el servidor de desarrollo:
+3. Inicia el servidor de desarrollo:
 ```bash
 npm run dev
 ```
 
-5. Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
-
-## Despliegue en Netlify
-
-Este proyecto está configurado para ser desplegado fácilmente en Netlify. Solo necesitas:
-
-1. Conectar tu repositorio a Netlify
-2. Configurar las variables de entorno en el panel de Netlify
-3. Netlify detectará automáticamente que es un proyecto Next.js y lo desplegará correctamente
-
-## Roles de usuario
-
-- **SuperAdmin**: Acceso completo a todas las funcionalidades
-- **Gestor Red**: Gestión de talleres y valoraciones
-- **Gestor Taller**: Acceso limitado a las funcionalidades de su taller
+4. Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
 ## Tecnologías
 
